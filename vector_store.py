@@ -7,7 +7,7 @@ import math
 from dataclasses import dataclass
 from pathlib import Path
 
-from projet_ollama.models import SearchResult, StoredChunk
+from models import SearchResult, StoredChunk
 
 
 @dataclass(slots=True)
