@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import subprocess
 from pathlib import Path
+from sentence_transformers import SentenceTransformer
 
-from projet_ollama.models import DocumentChunk
+
+from models import DocumentChunk
 
 
 def extract_text(source: Path) -> list[tuple[int | None, str]]:
